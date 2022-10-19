@@ -1,0 +1,154 @@
+@font-face{
+    font-family: Sky;
+    src: url('Skygraze.otf');}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+nav {
+    width: 100%;
+    padding: 15px 0;
+    background-color: rgb(255, 106, 0);
+    float: left;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav h1 a img {
+    width: 100px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    
+    list-style: none;
+    display: inline;
+
+    padding: 35px 15px;
+}
+
+nav ul li a {
+    list-style: none;
+    background-color: rgb(208, 72, 72);
+    color: white;
+    padding: 15px;
+    /* margin: 15px; */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: coral;
+    color: black;
+    background-color: #0d5a8b;
+    width: 375px;
+}
+
+header {
+    background-color:#FFF10A;
+}
+
+header img {
+    width: 100%;
+    border: 5px solid red;
+}
+
+.clearfix {
+    overflow: auto;
+    font-family: Sky;
+    font-size: medium;
+}
+
+main {
+    background-color: #CF240A;
+}
+main img {
+    border: 5px solid black;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Grade de Clunas*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    background-color: #696969;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button{
+    text-align: center;
+    background-color: #9cdaff;
+    border-radius: 30px;
+    width: 10%;
+    height: 30px;
+    font-size: 100%;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li a {
+    list-style: none;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 15px;
+    /* margin: 15px; */
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+li a:hover {
+    list-style: none;
+    background-color: rgb(255, 144, 65);
+    color: black;
+    border-radius: 50px;
+}
